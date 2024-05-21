@@ -22,7 +22,10 @@ Using images from the National Library of Medicine database for Malaria-infected
 * The database that we will be working with is from the National Library of Medicine, and can be found [here](https://lhncbc.nlm.nih.gov/LHC-research/LHC-projects/image-processing/malaria-datasheet.html).
 * The microscope images have been segmented to yield images of individual cells.
 * The dataset contains a total of 27,558 cell images.
-* The database constains an equal amount of infected and healthy cells, labelled as 'Parasitized' and 'Uninfected', respectively.
+* The database constains an equal amount of infected and healthy cells, labelled as 'Parasitized' and 'Uninfected', respectively:
+  ![image](https://github.com/laura1machado1delostoyos/Microscopic-Image-Recognition-for-Malaria-Detection/assets/123665653/1e4be5ad-5b0d-40c1-a913-4c0e497b1526)
+
+    Image source: Screenshot by Author of Tensorflow's ['Know Your Data'](https://knowyourdata-tfds.withgoogle.com/#dataset=malaria&tab=ITEM&group_by=default_segment.malaria.label.value&select=default_segment.malaria.label.value&sort_groups_by=value&item=train%5B1shard%5D_1735) visualisation feature.
 ### The Approach
 * This will be a binary classification problem.
 
